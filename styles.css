@@ -16,7 +16,7 @@ span {
 nav {
   display: inline; }
 
-ul {
+header > nav > ul {
   position: absolute;
   display: inline;
   list-style: none;
@@ -26,5 +26,12 @@ ul {
 
 li {
   display: inline; }
+
+ul a > img {
+  clear: both;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 2px solid #999999; }
 
 /*# sourceMappingURL=styles.css.map */

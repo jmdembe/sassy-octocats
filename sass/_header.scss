@@ -1,8 +1,21 @@
 header {
-    background-color: #333333;
-    width: 100%;
+    background-color: $themeColor;
+    border-top-left-radius: $borderRadius;
+    border-top-right-radius: $borderRadius;
 }
 
-.company_name {
+h1 {
+    font-weight: 200;
+}
+
+span {
     font-weight: bold;
+}
+
+ul {
+    display: inline;
+}
+
+li {
+
 }

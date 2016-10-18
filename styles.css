@@ -1,8 +1,15 @@
 header {
-  background-color: #333333;
-  width: 100%; }
+  background-color: #999999;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
 
-.company_name {
+h1 {
+  font-weight: 200; }
+
+span {
   font-weight: bold; }
+
+ul {
+  display: inline; }
 
 /*# sourceMappingURL=styles.css.map */

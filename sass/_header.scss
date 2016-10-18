@@ -2,20 +2,33 @@ header {
     background-color: $themeColor;
     border-top-left-radius: $borderRadius;
     border-top-right-radius: $borderRadius;
+    height:100%;
+    position: relative
 }
 
 h1 {
-    font-weight: 200;
-}
-
-span {
+    display: inline;
     font-weight: bold;
 }
 
-ul {
+span {
+    float: left;
+    font-weight: bold;
+}
+
+nav {
     display: inline;
 }
 
+ul {
+    position: absolute;
+    display: inline;
+    list-style: none;
+    padding: 0;
+    top: 0;
+    right: 0;
+}
 li {
+    display: inline;
 
 }

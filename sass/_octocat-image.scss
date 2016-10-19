@@ -1,0 +1,29 @@
+ul a > img {
+    clear: both;
+    @include square($octocatSize);
+    margin: $octocatMargin;
+    border: 1px solid $themeColor;
+    border-radius: $borderRadius;
+    padding: $octocatPadding;
+    box-sizing: border-box;
+  }
+
+li.octocat {
+    display: block;
+    width: $octocatSize + $octocatMargin + $octocatPadding;
+    margin: 0;
+
+    @media screen and (max-width: 930px)
+    {
+      float: left;
+    }
+}
+
+  a {
+      height: 0;
+  }
+
+//     @media screen and (min-width: $octocatSize+$octocatPadding+$octocatMargin * 2) {
+//       float: left;
+//     }
+//

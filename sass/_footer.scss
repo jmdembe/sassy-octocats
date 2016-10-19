@@ -1,0 +1,36 @@
+footer {
+    border-bottom: 3px solid $themeColor;
+}
+
+div {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 10px 0 10px;
+    border-color: $themeColor transparent transparent transparent;
+}
+
+footer h3 {
+    color: $themeColor;
+    display: inline;
+}
+
+footer cite {
+    display: inline;
+}
+
+.authors li img {
+    display: inline;
+    @include square($avatarSize);
+    border-radius: $avatarRadius;
+}
+
+cite ul {
+    display: inline;
+    list-style: none;
+    padding: 0;
+}
+
+.octonumber {
+    color: $octonumberColor;
+}

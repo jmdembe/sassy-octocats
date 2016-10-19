@@ -32,9 +32,52 @@ ul a > img {
   clear: both;
   width: 300px;
   height: 300px;
-  margin: 10px;
+  margin: 5px;
   border: 1px solid #F3F3F3;
   border-radius: 10px;
-  padding: 10px; }
+  padding: 5px;
+  box-sizing: border-box; }
+
+li.octocat {
+  display: block;
+  width: 310px;
+  margin: 0; }
+  @media screen and (max-width: 930px) {
+    li.octocat {
+      float: left; } }
+
+a {
+  height: 0; }
+
+footer {
+  border-bottom: 3px solid #F3F3F3; }
+
+div {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 10px 0 10px;
+  border-color: #F3F3F3 transparent transparent transparent; }
+
+footer h3 {
+  color: #F3F3F3;
+  display: inline; }
+
+footer cite {
+  display: inline; }
+
+.authors li img {
+  display: inline;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px; }
+
+cite ul {
+  display: inline;
+  list-style: none;
+  padding: 0; }
+
+.octonumber {
+  color: #999999; }
 
 /*# sourceMappingURL=styles.css.map */
